@@ -6,9 +6,12 @@ using UnityEngine.InputSystem;
 public class controller : MonoBehaviour
 {
     public Material mat;
-    public Vector2 pos, movement;
-    public float scale, angle, rotation;
-    
+    public Vector2 pos;
+    public float scale, angle;
+
+
+    Vector2 movement;
+    float rotation;
     bool IsMoving;
     bool IsRotating;
 
